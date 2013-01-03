@@ -1,0 +1,34 @@
+<div id="obal">
+
+   <div id="hlavicka">
+      <h1><b>{#podnadpis}</h1>
+   </div>
+
+
+   <div id="sloupec-prostredni-pravy">
+      <div id="sloupec-l">
+         <div class="obsah">
+            <h2>{#nadpis_stred}</h2>
+               <p>{#text_stred}</p>
+               <p></p>
+         </div>
+      </div> <!-- Konec prostredniho sloupce -->
+
+      <div id="sloupec-p">
+         <div class="obsah">
+            <h3>{#nadpis_pravo}</h3>
+               <p>{#text_pravo}</p>
+         </div>
+      </div> <!-- Konec praveho sloupce -->
+   <div class="cleaner">&nbsp;</div>
+   </div> <!-- Konec sloupce obalujiciho prostredni a pravy sloupec -->
+
+   <div id="sloupec-levy">
+      <div class="obsah">
+         <h3>{#nadpis_levo}</h3>
+            <p>{#text_levo}</p>
+      </div>
+   </div> <!-- Konec leveho sloupce -->
+
+</div> <!-- Konec obaloveho divu -->
+
